@@ -12,7 +12,7 @@
     "url": "https://github.com/commercefactory/xx-braintree-dropin-js-node.git"
   },
   "author": "Demian Borba (dborba@paypal.com)",
-  "license": "Apache",
+  "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/commercefactory/xx-braintree-dropin-js-node/issues"
   },

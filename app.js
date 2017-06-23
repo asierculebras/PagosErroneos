@@ -115,7 +115,6 @@ console.log("transaction es: "+ transaction.payment_method_nonce);
 
 // esto es el pago que se va a hacer, y el payment_method_nonce es el que braintree le ha dado al cliente y este nos lo ha envidado a traves del body.
   gateway.transaction.sale({
-    amount: transaction.amount,
     paymentMethodNonce: transaction.payment_method_nonce
   }, function (err, result) {
 
